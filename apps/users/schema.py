@@ -4,10 +4,11 @@ from .mutations.json_web_token import ObtainJSONWebToken
 from .mutations.register_user_mutation import RegisterUserMutation
 from .mutations.activation_user_mutation import ActivationUserMutation
 from .queries.group_query import GroupQuery
+from .queries.countries_query import CountriesQuery
 from .mutations.update_user_mutation import UpdateUserMutation
 
 
-class Query(MeQuery, GroupQuery):
+class Query(MeQuery, GroupQuery, CountriesQuery):
     pass
 
 
