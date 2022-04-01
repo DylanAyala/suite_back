@@ -1,13 +1,12 @@
-from django.db import models
+from django.db import models 
 from system.models import Advertiser, Campaign, Channel
 from .conversion_type import ConversionType
-
+from django.db import models  as moD
 
 class MtaResult(models.Model):
     class Meta:
         verbose_name_plural = "MTA Result"
 
-    id = models.AutoField(primary_key=True, help_text="Unique id")
     advertiser = models.ForeignKey(Advertiser, related_name='MtaResult_Advertiser',
                                    on_delete=models.CASCADE,
                                    null=True)

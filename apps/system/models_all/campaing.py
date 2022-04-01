@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models 
 from .advertaiser import Advertiser
 from .modules import Module
 
@@ -6,7 +6,7 @@ from .modules import Module
 class Campaign(models.Model):
 
     class Meta:
-        verbose_name_plural = "Campaign"
+        verbose_name_plural = "System Campaign"
 
     """Type user Campaign"""
     name = models.CharField(max_length=50, blank=True)

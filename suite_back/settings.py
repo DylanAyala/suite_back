@@ -92,6 +92,14 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306'
+    },
+    'results': {
+        'ENGINE': 'djongo',
+        'NAME': 'suite_mg',
+        'USER': 'admin',
+        'PASSWORD': '123',
+        'HOST': 'localhost',
+        'PORT': '27017'
     }
 }
 

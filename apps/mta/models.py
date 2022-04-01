@@ -5,3 +5,8 @@ from .models_all.mta_results import MtaResult
 from .models_all.paths_metrics import PathsMetrics
 from .models_all.path_analisis_touchpoint import PathAnalisisTouchpoint
 from .models_all.path_analisis_channel import PathAnalisisChannel
+from .models_all.irma import Irma
+from .models_all.investment import Investment
+from .models_all.coalition_metric import CoalitionsMetrics
+from .models_all.campaing_type import CampaingType
+from .models_all.campaing_category import CampaingCategory

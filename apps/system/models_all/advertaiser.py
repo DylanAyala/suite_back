@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models 
 from suite_back import settings
 from users.models import Countries
 

@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models 
 from system.models import Advertiser, Campaign
 from .conversion_group import ConversionGroup
 
